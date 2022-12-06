@@ -1,4 +1,4 @@
-githhub:
+github:
   - any: [".github/*"]
     all: ["!.github/workflows/*.yml"]
 
