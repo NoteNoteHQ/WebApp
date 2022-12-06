@@ -1,7 +1,4 @@
-repo:
-  - "*"
-
-githhub:
+github:
   - any: [".github/*"]
     all: ["!.github/workflows/*.yml"]
 
@@ -19,3 +16,6 @@ components:
 
 stories:
   - stories/*
+
+dependencies:
+  - any: ["package.json", "yarn.lock"]
