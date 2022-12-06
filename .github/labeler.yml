@@ -1,0 +1,21 @@
+repo:
+  - "*"
+
+githhub:
+  - any: [".github/*"]
+    all: ["!.github/workflows/*.yml"]
+
+ci/cd:
+  - .github/workflows/*.yml
+
+test:
+  - any: ["**/*.spec.ts", "**/*.spec.tsx"]
+
+pages:
+  - "pages/**/*.tsx"
+
+components:
+  - components/"**/*.tsx"
+
+stories:
+  - "**/*.stories.tsx"
