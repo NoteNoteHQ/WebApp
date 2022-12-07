@@ -6,7 +6,7 @@ ci/cd:
   - .github/workflows/*.yml
 
 test:
-  - any: ["**/*.spec.ts", "**/*.spec.tsx"]
+  - any: ["*.spec.ts", "*.spec.tsx"]
 
 pages:
   - "pages/**/*.tsx"
