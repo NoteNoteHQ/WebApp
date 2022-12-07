@@ -1,4 +1,4 @@
-import { PALETTE } from "./palette";
+import { PALETTE } from "constants/palette";
 
 export type AppAppearanceTheme = {
   text: string;

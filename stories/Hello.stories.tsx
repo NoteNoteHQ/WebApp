@@ -1,5 +1,5 @@
 import { ComponentMeta } from "@storybook/react";
-import { Hello as NNHello } from "../components/Hello";
+import { Hello as NNHello } from "components/Hello";
 
 export default {
   title: "Hello",
