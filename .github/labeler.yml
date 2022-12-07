@@ -12,7 +12,7 @@ pages:
   - "pages/**/*.tsx"
 
 components:
-  - components/"**/*.tsx"
+  - components/**/*.tsx"
 
 stories:
   - stories/**/*
