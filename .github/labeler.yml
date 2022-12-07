@@ -15,7 +15,7 @@ components:
   - components/"**/*.tsx"
 
 stories:
-  - "**/*.stories.tsx"
+  - stories/**/*
 
 dependencies:
   - any: ["package.json", "yarn.lock"]
