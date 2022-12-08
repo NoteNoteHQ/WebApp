@@ -5,11 +5,9 @@ import { ThemeProvider } from "styled-components";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <ThemeProvider theme={LightAppearanceTheme}>
       <GlobalStyle />
-      <ThemeProvider theme={LightAppearanceTheme}>
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </>
+      <Component {...pageProps} />
+    </ThemeProvider>
   );
 }
