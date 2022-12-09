@@ -112,4 +112,8 @@ export const GlobalStyle = createGlobalStyle`
 	white-space: nowrap !important;
 	border: 0 !important;
 }
+
+#__next, .DraftEditor-editorContainer,.DraftEditor-root,.public-DraftEditor-content {
+	height: 100%
+}
 `;
