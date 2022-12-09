@@ -36,6 +36,7 @@ export const GlobalStyle = createGlobalStyle`
 	line-height: 1.5;
 	font-family: system-ui, sans-serif;
 	-webkit-font-smoothing: antialiased;
+	background-color: ${({ theme }) => theme.background};
 }
 
 :where(input, button, textarea, select) {
